@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-1+k^2jp63z($&vds__2_i&arhj&xmdbyz)54br6-t8j(4j*sbd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["zuegelwagen.pythonanywhere.com", "localhost"]
+ALLOWED_HOSTS = ["zuegelwagen.pythonanywhere.com", "localhost", "127.0.0.1"]
 
 # Application definition
 
@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "todo",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
